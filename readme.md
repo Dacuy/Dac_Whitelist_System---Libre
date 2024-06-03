@@ -49,47 +49,19 @@ DAC_WHITELISTSYSTEM/
 ## Instalación
 1. Clona el repositorio:
     ```bash
-    git clone https://github.com/tuusuario/DAC_WhitelistSystem.git
+    git clone https://github.com/Dacuy/Dac_Whitelist_System---Libre.git
     ```
 2. Navega al directorio del proyecto:
     ```bash
     cd DAC_WhitelistSystem
-    ```
-3. Instala las dependencias:
-    ```bash
-    npm install
-    ```
-4. Agrega tus credenciales de Firebase en el archivo de configuración correspondiente.
 
-## Uso
-1. Inicia el servidor de desarrollo:
-    ```bash
-    npm start
-    ```
-2. Abre tu navegador y ve a `http://localhost:3000` para ver la aplicación en funcionamiento. También puedes usar una extensión como Open Live Server para visualizar la aplicación durante el desarrollo.
-3. Configura tu bot de Discord para que se conecte a la base de datos y gestione las solicitudes.
+4. Agrega tus credenciales de Firebase en el archivo de configuración correspondiente, y escondela para evitar problemas.
 
 ## Configuración del Bot de Discord
 1. Crea un bot en el [portal de desarrolladores de Discord](https://discord.com/developers/applications).
 2. Invita el bot a tu servidor de Discord.
-3. Configura el bot para conectarse a tu base de datos Firebase y procesar las solicitudes.
+3. Configura el bot para conectarse a tu base de datos Firebase y procesar las solicitudes, revisa mi perfil de github para obtener el codigo.
 
-## Contribuciones
-Las contribuciones son bienvenidas. Si deseas contribuir, por favor sigue estos pasos:
-1. Haz un fork del proyecto.
-2. Crea una nueva rama con tu característica o corrección:
-    ```bash
-    git checkout -b nombre-de-tu-rama
-    ```
-3. Realiza tus cambios y haz commit:
-    ```bash
-    git commit -m "Descripción de tus cambios"
-    ```
-4. Sube tus cambios a tu fork:
-    ```bash
-    git push origin nombre-de-tu-rama
-    ```
-5. Abre un Pull Request en GitHub.
 
 ## Contacto
 Para cualquier consulta o sugerencia, puedes contactarme en Discord: **dac_lc**.
