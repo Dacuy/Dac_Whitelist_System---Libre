@@ -1,4 +1,3 @@
-
 const firebaseConfig = {
   apiKey: "",
   authDomain: "",
@@ -14,7 +13,6 @@ var firestore = firebase.firestore();
 
 const db = firestore.collection("whitelist");
 let submitButton = document.getElementById("submitButton");
-
 submitButton.addEventListener("click", (e) => {
     e.preventDefault();
   
@@ -28,7 +26,7 @@ submitButton.addEventListener("click", (e) => {
     let steamurl = document.getElementById('steamUrl').value;
     let discordName = document.getElementById('discordName').value;
     let status = 'pending'
-
+    let tiempo = new Date();
 
     if (!firstName || !lastName || !country || !socialclass || !historia || !oocedad || !steamurl || !discordName) {
       alert('Por favor, complete todos los campos antes de enviar el formulario.');
@@ -64,7 +62,9 @@ submitButton.addEventListener("click", (e) => {
         oocage: oocedad,
         steamurl: steamurl,
         nomeDiscord: discordName,
-        status: status
+        status: status,
+        timeStamp: tiempo,
+        reason: ""
       })
       .then(() => { })
       .catch((error) => {
