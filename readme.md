@@ -5,8 +5,8 @@ Bienvenido a **DAC_WhitelistSystem**, una aplicación web para gestionar solicit
 ## Funcionalidades
 - **Formulario de Solicitud**: Los usuarios pueden llenar un formulario con sus datos para solicitar el acceso a la whitelist.
 - **Almacenamiento en Base de Datos**: Las solicitudes se almacenan de forma segura en una base de datos.
-- **Integración con Discord**: Un bot de Discord toma los datos de la base de datos y envía mensajes para que las solicitudes sean aprobadas o rechazadas.
--**PRONTO: Integración de credenciales**: Integracion de credenciales (base hecha puedes hacerlo por tu cuenta) para ver que administradores aprobaron y rechazaron mas whitelists y cuanto tiempo pasaron haceiendolo. (graficas en general con chart.js)
+- **Integración con Discord**: Un bot de Discord toma los datos de la base de datos y envía mensajes para que las solicitudes sean aprobadas o rechazadas. <br>
+- **PRONTO: Integración de credenciales**: Integracion de credenciales (base hecha puedes hacerlo por tu cuenta) para ver que administradores aprobaron y rechazaron mas whitelists y cuanto tiempo pasaron haceiendolo. (graficas en general con chart.js)
 
 ## Estructura del Proyecto
 DAC_WHITELISTSYSTEM/
