@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Krona+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Estilos generales */
+* {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+body {
+    background-color: black;
+    background-image: url('../assets/imgs/grid.svg');
+    mix-blend-mode: luminosity;
+    margin: 0;
+}
+
+/* Estilos de navegación */
+nav {
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    width: auto;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+}
+
+/* Estilos de formularios */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input, textarea, .enviar {
+    width: 35rem;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+    outline: none;
+    margin-bottom: 10px;
+}
+.h1form{
+    text-align: center;
+}

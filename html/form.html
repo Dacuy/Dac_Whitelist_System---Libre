@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home EnigmaRP</title>
+    <script src="https://kit.fontawesome.com/4425683494.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/stylesform.css">
+</head>
+<body>
+    <img class="elipse1" src="../assets/imgs/Ellipse.png" alt="">
+    <img class="elipse2" src="../assets/imgs/Ellipse2.png" alt="">
+    <section class="navbar">
+        <nav>
+            <img class="logo" src="../assets/imgs/logo.webp" alt="">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="form.html">Whitelist</a></li>
+                <li><a href="#">Normativa</a></li>
+                <li><a href="#">Discord</a></li>
+            </ul>
+            <button>Iniciar Sesión</button>
+    
+        </nav>
+    </section>
+    <div class="centrar2">
+        <main>
+            <div class="contenedorform">
+                <form id="clearFrom">
+                    <h1 class="h1form">Whitelist SERVIDOR1</h1>
+                    <label for="fullName">Nombre y apellidos</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                    <label for="ageIC">Edad IC</label>
+                    <input type="number" id="ageIC" name="ageIC" required>
+                    <label for="origin">Procedencia</label>
+                    <input type="text" id="origin" name="origin" required>
+                    <label for="socialClass">Clase social</label>
+                    <input type="text" id="socialClass" name="socialClass" required>
+                    <label for="characterHistory">Breve historia del personaje (Mínimo 10 líneas)</label>
+                    <textarea id="characterHistory" name="characterHistory" cols="30" rows="10" required></textarea>
+                    <label for="ageOOC">Edad OOC</label>
+                    <input type="number" id="ageOOC" name="ageOOC" required>
+                    <label for="steamUrl">Url de Steam</label>
+                    <input type="text" id="steamUrl" name="steamUrl" required>
+                    <label for="steamUrl">Discord (ej: juanito_12 / juanito#0000)</label>
+                    <input type="text" id="discordName" name="steamUrl" required>
+                    <input id="submitButton" class="enviar" type="submit" value="Enviar">
+                </form>
+            </div>
+        </main>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
