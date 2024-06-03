@@ -44,6 +44,10 @@ DAC_WHITELISTSYSTEM/
 - Credenciales de Firebase para el almacenamiento de datos.
 - Bot de Discord configurado para interactuar con la base de datos y gestionar las solicitudes.
 
+## Licencia
+Proyecto de uso personal: No hace falta hacer mención al autor.
+Proyecto de uso comercial (Cualquier proyecto que involucre a + de 5 personas que vayan a usar el sistema): Hacer mención al autor y colocar link al repositorio.
+
 ## Seguridad
 **Importante**: Asegúrate de implementar medidas de seguridad adecuadas para ocultar tus credenciales de Firebase. De lo contrario, podrían quedar expuestas al público. Esto es crucial para proteger la integridad y seguridad de tu aplicación.
 
@@ -68,5 +72,5 @@ DAC_WHITELISTSYSTEM/
 Para cualquier consulta o sugerencia, puedes contactarme en Discord: **dac_lc**.
 
 Besitos,
-**DAC_**
+**©All Rights Reserved: DAC_**
 
